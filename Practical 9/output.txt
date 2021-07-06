@@ -1,0 +1,52 @@
+./main
+Original first dlist: 
+1,2,3,4,5
+Smallest dlist value: 1
+First dlist head value: 1
+First dlist tail value: 5
+First dlist size: 5
+Ensuring correct linkages: 
+Index 0: 0<-0x55e01a5d1f70->0x55e01a5d1ef0
+Index 1: 0x55e01a5d1f70<-0x55e01a5d1ef0->0x55e01a5d1f10
+Index 2: 0x55e01a5d1ef0<-0x55e01a5d1f10->0x55e01a5d1f30
+Index 3: 0x55e01a5d1f10<-0x55e01a5d1f30->0x55e01a5d1f50
+Index 4: 0x55e01a5d1f30<-0x55e01a5d1f50->0
+Popping list until empty: 
+Popped Head: 0x55e01a5d1f70
+Popped Head: 0x55e01a5d1ef0
+Popped Head: 0x55e01a5d1f10
+Popped Head: 0x55e01a5d1f30
+Popped Head: 0x55e01a5d1f50
+Try popping empty list
+0
+Repopulate with original values for destruct
+Original second dlist: 
+5.445,4.74574,3.123,2.3123,1.001
+Second clist size: 5
+Second clist head value: 5.445
+Ensuring correct linkages: 
+HEADNODE 5.445->4.74574->3.123->2.3123->1.001->HEADNODE 5.445->4.74574->3.123->2.3123->1.001
+Remove value of 1.001
+0x55e01a5d2010
+5.445,4.74574,3.123,2.3123
+Popping list until empty: 
+Popped Head: 0x55e01a5d1ff0
+4.74574,3.123,2.3123
+Popped Head: 0x55e01a5d1fd0
+3.123,2.3123
+Popped Head: 0x55e01a5d1fb0
+2.3123
+Popped Head: 0x55e01a5d1f90
+Try popping empty list
+0
+Repopulate with original values for destruct
+4.74574 Deleted
+3.123 Deleted
+2.3123 Deleted
+1.001 Deleted
+5.445 Deleted
+1 Deleted
+2 Deleted
+3 Deleted
+4 Deleted
+5 Deleted

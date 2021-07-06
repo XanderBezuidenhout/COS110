@@ -1,0 +1,33 @@
+./main
+Original list
+5,4,3,2,1
+Min List Item: 1
+Max List Item: 5
+Random Shuffled List with index 0
+5,4,3,2,1
+Random Shuffled List with index 2
+3,2,1,5,4
+List after being popped
+New Size: 4
+2,1,5,4
+List after being popped
+New Size: 3
+1,5,4
+List after being popped
+New Size: 2
+5,4
+List after being popped
+New Size: 1
+4
+List after being popped
+New Size: 0
+Random Shuffled List with Random Index
+NEw list 
+5,4,3,2,1
+Random Shuffled List with Random Index
+2,1,5,4,3
+2 Deleted
+1 Deleted
+5 Deleted
+4 Deleted
+3 Deleted
